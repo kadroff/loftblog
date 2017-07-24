@@ -163,3 +163,39 @@ html,body {
     height: 206px;
     background-color: red;
 }
+
+
+/* section statistic */
+
+.statistic {
+    height: 380px;
+}
+
+.statistic h1 {
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25em;
+}
+
+.statistic_list img {
+    width: 45%;
+    height: 4rem;
+}
+
+.statistic_list {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.statistic_list li {
+    display: inline-block;
+    margin-left: 44px;
+}
+
+.statistic_list p {
+    color: #f3a233;
+    font-weight: bold;
+    margin-left: 14px;
+    margin-top: 20px;
+}
