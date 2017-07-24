@@ -109,3 +109,57 @@ html,body {
     margin-top: 35px;
     float: right;
 }
+
+/* Section three */
+
+.knowledge_section_three {
+    padding-top: 250px;
+}
+
+.knowledge_title_three {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25em;
+}
+
+.knowledge_section_three h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #575757;
+}
+
+.knowledge_section_three p {
+    text-align: center;
+    color: #575757;
+    font-size: 1.125em;
+    margin-top: 1em;
+}
+
+/* Course section */
+
+.course {
+    height: 400px;
+    background-color: #f6f6f6;
+}
+
+.course h1 {
+    padding-top: 60px;
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #313131;
+}
+
+.course_list {
+    margin-top: 40px;
+    
+}
+
+.course_list li {
+    margin-left: 12px;
+    display: inline-block;
+    width: 255px;
+    height: 206px;
+    background-color: red;
+}
