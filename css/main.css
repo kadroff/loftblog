@@ -1,0 +1,111 @@
+html,body {
+     font-family: sans-serif;
+}
+
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background-image: url(../images/background.jpg);
+    background-position: center top;
+    height: 670px;   
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar_logo {
+    width: 172px;
+    height: 44px;
+}
+
+.navbar_list {
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.navbar_list li {
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar_auth {
+    float: right;
+}
+
+
+/* header_main */
+
+.header_main {
+    padding-top: 150px;
+    margin-left: 130px;
+    color: white;
+}
+
+.header_main h1 {
+    font-size: 4em;
+}
+
+
+/* information_video */
+.info_video {
+    height: 550px;
+    background-color: #f6f6f6;
+}
+
+.info_video iframe {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* knowledge */
+
+.knowledge {
+    height: 732px;
+    color: #313131;
+}
+
+.knowledge_title_one {
+    font-size: 1.7em;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.knowledge_text_one {
+    font-size: 1.125em;
+    margin-top: 10px;
+}
+
+.knowledge_image_one {
+    float: right;
+    margin-top: -120px;
+}
+
+/* knowledge section two */
+
+.knowledge_section_two {
+    padding-top: 140px;
+}
+
+.knowledge_image_two {
+    float: left
+}
+
+.knowledge_title_two {
+    float: right;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.knowledge_text_two {
+    font-size: 1.125em;
+    margin-top: 35px;
+    float: right;
+}
