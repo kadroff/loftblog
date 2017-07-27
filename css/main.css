@@ -1,5 +1,6 @@
 html,body {
      font-family: sans-serif;
+     font-weight: 300;
 }
 
 .container {
@@ -7,6 +8,9 @@ html,body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
 /* Header */
 
 .header {
@@ -16,7 +20,7 @@ html,body {
 }
 
 .navbar {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .navbar_logo {
@@ -25,18 +29,33 @@ html,body {
 }
 
 .navbar_list {
+    font-size: 1em;
     margin-left: 200px;
-    margin-top: -40px;
+    margin-top: -35px;
 }
 
-.navbar_list li {
+.navbar_list li  {
     color: white;
     display: inline;
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+.navbar_list li:hover {
+    padding: .5em 2em;
+    background-color: #facf33;
+    border-radius: 5px;
 }
 
 .navbar_auth {
+    margin-top: -25px;
     float: right;
+    background-color: #facf33;
+    color: #313131;
+    font-weight: 600;
+    font-size: .9em;
+    border-radius: 5px;
+    border-color: #facf33;
+    padding: .2em 1em;
 }
 
 
@@ -50,6 +69,21 @@ html,body {
 
 .header_main h1 {
     font-size: 4em;
+    font-weight: 100 im;
+}
+
+.header_main_regist {
+    margin-top: 60px;
+    color: #313131;
+    font-size: 1.125em;
+    font-weight: bold;
+    background-color: #facf28;
+    border-radius: .25em;
+    border-color: #facf28;
+    text-align: center;
+    width: 284px;
+    height: 2.8125em;
+    padding: .625em 1.8125em;
 }
 
 
@@ -153,7 +187,6 @@ html,body {
 
 .course_list {
     margin-top: 40px;
-    
 }
 
 .course_list li {
@@ -198,4 +231,69 @@ html,body {
     font-weight: bold;
     margin-left: 14px;
     margin-top: 20px;
+}
+
+
+/* News section */
+
+.news {
+    height: 600px;
+    background-color: #f6f6f6;
+}
+
+.news h1 {
+    padding-top: 60px;
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #313131;    
+}
+
+.news_list {
+    margin-top: 80px;
+}
+
+.news_list li {
+    margin-left: 12px;
+    display: inline-block;
+    width: 255px;
+    height: 206px;
+    background-color: red;
+}
+
+/*  */
+
+.partners {
+    height: 470px;
+}
+
+.partners h1 {
+    font-size: 2.25em;
+    color: #313131;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.partners img {
+    width: 110px;
+    height: 40x;
+}
+
+.partners_list_one {
+    margin-top: 100px;
+}
+
+.partners_list_one li {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.partners_list_two {
+    margin-top: 50px;
+}
+
+.partners_list_two li {
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: middle;
 }
